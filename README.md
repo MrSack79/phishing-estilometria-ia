@@ -1,9 +1,5 @@
 # Detección estilométrica de phishing generado por IA en comunicados institucionales de universidades públicas peruanas (2026)
 
-**Autor:** Jesus Oswaldo Andres Rios Gonzales  
-**Curso:** Inteligencia Artificial II (CBS06 2026-2), Universidad Nacional de Ingeniería  
-**Tipo de trabajo:** Examen Parcial, artículo individual en formato APA 7
-
 Repositorio del experimento del artículo *Evaluación del aprendizaje automático estilométrico en la detección de phishing generado por IA en los comunicados y trámites institucionales de las universidades públicas peruanas, 2026*.
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EhwRcujARI0a4I0Ik8ZZoOZZGjZD04z8)
