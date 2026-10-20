@@ -38,13 +38,13 @@ requirements.txt
 ```
 
 - `data/raw/`: datos crudos del corpus.
-- `notebooks/experimento.ipynb`: experimento completo, desde la construcción del corpus hasta la explicabilidad.
+- `notebooks/phishing-estilometria-ia`: experimento completo, desde la construcción del corpus hasta la explicabilidad.
 - `results/`: tablas de métricas, brechas ΔF1, importancia de rasgos, ablación y figuras.
 - `requirements.txt`: dependencias con versiones fijas.
 
 ## Reproducción
 
-1. Abrir el notebook en Google Colab con el botón de arriba (o la copia de `notebooks/experimento.ipynb` desde GitHub).
+1. Abrir el notebook en Google Colab con el botón de arriba (o la copia de `notebooks/phishing-estilometria-ia` desde GitHub).
 2. Ejecutar las celdas en orden. La primera celda clona este repositorio, instala `requirements.txt` y descarga el modelo `es_core_news_sm` de spaCy.
 3. Los resultados se guardan en `results/` dentro de la sesión de Colab. La última celda los comprime en un archivo `.zip` para descargarlos.
 
@@ -57,7 +57,7 @@ git clone https://github.com/MrSack79/phishing-estilometria-ia.git
 cd phishing-estilometria-ia
 pip install -r requirements.txt
 python -m spacy download es_core_news_sm
-jupyter notebook notebooks/experimento.ipynb
+jupyter notebook notebooks/phishing-estilometria-ia
 ```
 
 La semilla aleatoria es 42 en todo el experimento.
