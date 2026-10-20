@@ -36,7 +36,7 @@ data/raw/
   phishing_ia.csv
   parafrasis_ia.csv
 notebooks/
-  experimento.ipynb
+  phishing-estilometria-ia
 results/
 requirements.txt
 ```
