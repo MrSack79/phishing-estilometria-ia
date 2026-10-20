@@ -17,7 +17,7 @@ Se compara un conjunto de 27 rasgos estilométricos (diversidad léxica, variaci
 │   │   └── parafrasis_ia.csv
 │   └── processed/
 ├── notebooks/
-│   └── experimento.ipynb
+│   └── phishing_estilometria_ia.ipynb
 ├── results/
 ├── requirements.txt
 └── README.md
@@ -50,7 +50,7 @@ Los correos legítimos son reales pero están anonimizados. No contienen direcci
 
 ## Cómo reproducir
 
-1. Abre `notebooks/experimento.ipynb` en Google Colab (File → Open notebook → GitHub).
+1. Abre `notebooks/phishing_estilometria_ia.ipynb` en Google Colab (File → Open notebook → GitHub).
 2. Ejecuta todas las celdas en orden (Runtime → Run all). No requiere GPU.
 
 La primera celda clona el repositorio e instala las dependencias:
