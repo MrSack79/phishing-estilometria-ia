@@ -31,6 +31,7 @@ data/raw/
   legitimos.csv
   phishing_ia.csv
   parafrasis_ia.csv
+fuentes/
 notebooks/
   phishing-estilometria-ia
 results/
@@ -39,6 +40,7 @@ requirements.txt
 
 - `data/raw/`: datos crudos del corpus.
 - `notebooks/phishing-estilometria-ia`: experimento completo, desde la construcción del corpus hasta la explicabilidad.
+- `fuentes`: fuentes utilizadas en el articulo academico.
 - `results/`: tablas de métricas, brechas ΔF1, importancia de rasgos, ablación y figuras.
 - `requirements.txt`: dependencias con versiones fijas.
 
@@ -49,16 +51,6 @@ requirements.txt
 3. Los resultados se guardan en `results/` dentro de la sesión de Colab. La última celda los comprime en un archivo `.zip` para descargarlos.
 
 El repositorio es público, por lo que no hace falta iniciar sesión en GitHub ni vincular cuentas en Colab: la cuenta de Google que se use en Colab puede ser distinta de la de GitHub.
-
-Para ejecutar en local:
-
-```bash
-git clone https://github.com/MrSack79/phishing-estilometria-ia.git
-cd phishing-estilometria-ia
-pip install -r requirements.txt
-python -m spacy download es_core_news_sm
-jupyter notebook notebooks/phishing-estilometria-ia
-```
 
 La semilla aleatoria es 42 en todo el experimento.
 
