@@ -6,7 +6,9 @@
 
 Repositorio del experimento del artículo *Evaluación del aprendizaje automático estilométrico en la detección de phishing generado por IA en los comunicados y trámites institucionales de las universidades públicas peruanas, 2026*.
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MrSack79/phishing-estilometria-ia/blob/main/notebooks/experimento.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EhwRcujARI0a4I0Ik8ZZoOZZGjZD04z8)
+
+Copia del notebook alojada en este repositorio: [Abrir en Colab desde GitHub](https://colab.research.google.com/github/MrSack79/phishing-estilometria-ia/blob/main/notebooks/experimento.ipynb).
 
 ## Resumen
 
@@ -46,9 +48,11 @@ requirements.txt
 
 ## Reproducción
 
-1. Abrir `notebooks/experimento.ipynb` en Google Colab con el botón de arriba.
+1. Abrir el notebook en Google Colab con el botón de arriba (o la copia de `notebooks/experimento.ipynb` desde GitHub).
 2. Ejecutar las celdas en orden. La primera celda clona este repositorio, instala `requirements.txt` y descarga el modelo `es_core_news_sm` de spaCy.
-3. Los resultados se guardan en `results/`.
+3. Los resultados se guardan en `results/` dentro de la sesión de Colab. La última celda los comprime en un archivo `.zip` para descargarlos.
+
+El repositorio es público, por lo que no hace falta iniciar sesión en GitHub ni vincular cuentas en Colab: la cuenta de Google que se use en Colab puede ser distinta de la de GitHub.
 
 Para ejecutar en local:
 
