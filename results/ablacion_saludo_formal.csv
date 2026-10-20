@@ -1,0 +1,9 @@
+modelo,variante,recall,f1_macro,fpr,auc
+LightGBM,con saludo_formal,0.953,0.852,0.247,0.965
+LightGBM,sin saludo_formal,0.973,0.862,0.247,0.959
+XGBoost,con saludo_formal,0.953,0.876,0.2,0.97
+XGBoost,sin saludo_formal,0.96,0.824,0.307,0.951
+RandomForest,con saludo_formal,0.96,0.876,0.207,0.971
+RandomForest,sin saludo_formal,0.973,0.834,0.3,0.953
+LogReg,con saludo_formal,0.96,0.91,0.14,0.965
+LogReg,sin saludo_formal,0.96,0.876,0.207,0.945

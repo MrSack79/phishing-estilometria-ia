@@ -1,0 +1,4 @@
+,LogReg,RandomForest,LightGBM,XGBoost,TFIDF_LogReg
+gemma,0.0,0.0,0.021,-0.021,0.0
+qwen,0.0,0.0,0.042,0.0,0.0
+mistral,0.022,0.044,0.09,0.114,0.0
